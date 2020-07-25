@@ -28,13 +28,15 @@ export default {
   },
   computed: {
     shouldSearch(): boolean {
-      return this.pokemonFilter.length > 3;
+      const self = this as any;
+      return self.pokemonFilter.length > 3;
     },
     filteredData(): Pokemon[] {
-      return this.pokemons.filter(
-        pokemon =>
-          pokemon.hebrewName.includes(this.pokemonFilter) ||
-          pokemon.englishName.includes(this.pokemonFilter)
+      const self = this as any;
+      return self.pokemons.filter(
+        (pokemon: Pokemon) =>
+          pokemon.hebrewName.includes(self.pokemonFilter) ||
+          pokemon.englishName.includes(self.pokemonFilter)
       );
     }
   }
