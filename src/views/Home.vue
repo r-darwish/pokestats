@@ -5,20 +5,18 @@
     <input v-model="pokemonFilter" placeholder="Pokemon" autofocus />
     <div v-if="shouldSearch">
       <div v-for="pokemon in filteredData" :key="pokemon">
-        <a :href="`https://www.pocketmonsters.co.il/?p=${pokemon.linkId}`">
-          <img
-            :src="`https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/${pokemon.imageId}-1.png`"
-          />
+        <a :href="`https://www.pocketmonsters.co.il/?p=${pokemon.linkId}`" target="_blank">
+          <img :src="pokemon.imageId" />
         </a>
         <br />
         {{pokemon.hebrewName}} / {{pokemon.englishName}}
         <p>
           <strong>Major Weaknesses:</strong>
-          {{pokemon.majorWeaknessess}}
+          {{pokemon.majorWeaknesses}}
         </p>
         <p>
           <strong>Weaknesses:</strong>
-          {{pokemon.weaknessess}}
+          {{pokemon.weaknesses}}
         </p>
         <p>
           <strong>Resistancess:</strong>
