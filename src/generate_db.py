@@ -5,8 +5,8 @@ from typing import List
 from aiohttp import ClientSession
 from bs4 import BeautifulSoup
 from asyncio import get_event_loop, Semaphore, gather
-import re
 from itertools import zip_longest
+from enum import Enum, auto
 from dataclasses import dataclass
 
 
@@ -16,11 +16,36 @@ class ShortStats:
     link_id: int
 
 
+class PokemonType(Enum):
+    NORMAL = auto()
+    FIRE = auto()
+    WATER = auto()
+    ELECTRICITY = auto()
+    GRASS = auto()
+    ICE = auto()
+    FIGHTING = auto()
+    POISON = auto()
+    EARTH = auto()
+    FLYING = auto()
+    PSYCHIC = auto()
+    BUG = auto()
+    ROCK = auto()
+    GHOST = auto()
+    DRAGON = auto()
+    DARK = auto()
+    METAL = auto()
+    FARIE = auto()
+    SCIENCE = auto()
+    CULTURE = auto()
+    RELIGION = auto()
+
+
 @dataclass
 class Pokemon:
     short_stats: ShortStats
     english_name: str
     hebrew_name: str
+    major_weaknesses: List[PokemonType]
 
 
 def grouper(iterable, n):
@@ -56,10 +81,12 @@ async def get_pokemon_info(
         )
         response.raise_for_status()
         soup = BeautifulSoup(await response.text(), features="html.parser")
-        hebrew_name, english_name = [
-            td.text
-            for td in soup.find("div", class_="entry").find("table").find_all("td")[2:]
-        ]
+        tables = soup.find("div", class_="entry").find_all("table")
+        hebrew_name, english_name = [td.text for td in tables[0].find_all("td")[2:]]
+
+        import pdb
+
+        pdb.set_trace()
 
         return Pokemon(
             short_stats=stats, english_name=english_name, hebrew_name=hebrew_name
