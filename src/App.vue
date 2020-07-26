@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <div id="nav">
+      <a href="https://github.com/r-darwish/pokestats/issues/new" target="_blank">Report an issue</a>
+    </div>
     <router-view />
   </div>
 </template>
