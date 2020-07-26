@@ -31,41 +31,18 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from "vue-property-decorator";
-
-enum PokemonType {
-  Fire = "Fire"
-}
-
-interface Pokemon {
-  hebrewName: string;
-  englishName: string;
-  linkId: number;
-  imageId: number;
-  weaknessess: PokemonType[];
-  majorWeaknessess: PokemonType[];
-  resistancess: PokemonType[];
-}
+import data from "../db";
+import { Pokemon } from "../types";
 
 @Component({})
 export default class Home extends Vue {
-  private pokemonData: Pokemon[] = [
-    {
-      hebrewName: "נגביר",
-      englishName: "Negeveer",
-      imageId: 650,
-      linkId: 87267,
-      majorWeaknessess: [PokemonType.Fire],
-      weaknessess: [PokemonType.Fire],
-      resistancess: [PokemonType.Fire]
-    }
-  ];
   private pokemonFilter = "";
 
   get shouldSearch(): boolean {
     return this.pokemonFilter.length >= 3;
   }
   get filteredData(): Pokemon[] {
-    return this.pokemonData.filter(
+    return data.filter(
       pokemon =>
         pokemon.hebrewName.includes(this.pokemonFilter) ||
         pokemon.englishName
