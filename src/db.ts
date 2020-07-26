@@ -32,7 +32,7 @@ const data: Pokemon[] = [
         linkId: 87520,
         majorWeaknesses: [PokemonType.Rock],
         weaknesses: [PokemonType.Water, PokemonType.Electricity, PokemonType.Culture],
-        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Fighting, PokemonType.Earth, PokemonType.Bug, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Fighting, PokemonType.Earth, PokemonType.Bug, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "סטרלטון",
         englishName: "Streleton",
@@ -40,7 +40,7 @@ const data: Pokemon[] = [
         linkId: 87521,
         majorWeaknesses: [PokemonType.Rock],
         weaknesses: [PokemonType.Water, PokemonType.Electricity, PokemonType.Culture],
-        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Fighting, PokemonType.Earth, PokemonType.Bug, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Fighting, PokemonType.Earth, PokemonType.Bug, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "ווספייר",
         englishName: "Vespyre",
@@ -48,7 +48,7 @@ const data: Pokemon[] = [
         linkId: 87522,
         majorWeaknesses: [PokemonType.Earth],
         weaknesses: [PokemonType.Water, PokemonType.Fighting, PokemonType.Science, PokemonType.Culture],
-        resistancess: [PokemonType.Normal, PokemonType.Grass, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Psychic, PokemonType.Bug, PokemonType.Dragon, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Normal, PokemonType.Grass, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Psychic, PokemonType.Bug, PokemonType.Dragon, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "סליאאון",
         englishName: "Slieon",
@@ -71,7 +71,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/658.png",
         linkId: 87525,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Electricity, PokemonType.Grass, PokemonType.Flying, PokemonType.Psychic, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Electricity, PokemonType.Grass, PokemonType.Flying, PokemonType.Psychic, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Fire, PokemonType.Water, PokemonType.Ice, PokemonType.Bug, PokemonType.Rock, PokemonType.Dark, PokemonType.Metal],
     }, {
         hebrewName: "גרסקט",
@@ -95,7 +95,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/661.png",
         linkId: 87528,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Ice, PokemonType.Flying, PokemonType.Rock, PokemonType.Dragon, PokemonType.Farie],
+        weaknesses: [PokemonType.Ice, PokemonType.Flying, PokemonType.Rock, PokemonType.Dragon, PokemonType.Fairy],
         resistancess: [PokemonType.Water, PokemonType.Electricity, PokemonType.Grass, PokemonType.Fighting, PokemonType.Earth, PokemonType.Culture],
     }, {
         hebrewName: "זיפ זיפ",
@@ -184,7 +184,7 @@ const data: Pokemon[] = [
         linkId: 87560,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Earth, PokemonType.Psychic, PokemonType.Science],
-        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Farie, PokemonType.Religion],
+        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Fairy, PokemonType.Religion],
     }, {
         hebrewName: "ספייקלר",
         englishName: "Spikeler",
@@ -192,7 +192,7 @@ const data: Pokemon[] = [
         linkId: 87561,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Earth, PokemonType.Psychic, PokemonType.Science],
-        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Farie, PokemonType.Religion],
+        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Fairy, PokemonType.Religion],
     }, {
         hebrewName: "ציזומי",
         englishName: "Cheezumi",
@@ -231,7 +231,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/678.png",
         linkId: 87566,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Flying, PokemonType.Psychic, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Flying, PokemonType.Psychic, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Bug, PokemonType.Rock, PokemonType.Dark],
     }, {
         hebrewName: "אבולהלה",
@@ -239,7 +239,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/679.png",
         linkId: 87567,
         majorWeaknesses: [PokemonType.Religion],
-        weaknesses: [PokemonType.Farie],
+        weaknesses: [PokemonType.Fairy],
         resistancess: [PokemonType.Normal, PokemonType.Fighting, PokemonType.Poison, PokemonType.Psychic, PokemonType.Science, PokemonType.Culture],
     }, {
         hebrewName: "ריצ'יליץ'",
@@ -248,7 +248,7 @@ const data: Pokemon[] = [
         linkId: 87568,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Fire, PokemonType.Flying, PokemonType.Psychic, PokemonType.Rock, PokemonType.Science],
-        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Farie, PokemonType.Culture, PokemonType.Religion],
+        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Fairy, PokemonType.Culture, PokemonType.Religion],
     }, {
         hebrewName: "באטוליץ'",
         englishName: "Batoleech",
@@ -256,7 +256,7 @@ const data: Pokemon[] = [
         linkId: 87569,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Fire, PokemonType.Flying, PokemonType.Psychic, PokemonType.Rock, PokemonType.Science],
-        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Farie, PokemonType.Culture, PokemonType.Religion],
+        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Fairy, PokemonType.Culture, PokemonType.Religion],
     }, {
         hebrewName: "סאסוליץ'",
         englishName: "Sasoleech",
@@ -264,7 +264,7 @@ const data: Pokemon[] = [
         linkId: 87570,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Fire, PokemonType.Flying, PokemonType.Psychic, PokemonType.Rock, PokemonType.Science],
-        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Farie, PokemonType.Culture, PokemonType.Religion],
+        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Fairy, PokemonType.Culture, PokemonType.Religion],
     }, {
         hebrewName: "סלייפקה",
         englishName: "Salipaca",
@@ -303,7 +303,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/687.png",
         linkId: 87575,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Electricity, PokemonType.Grass, PokemonType.Fighting, PokemonType.Bug, PokemonType.Farie, PokemonType.Religion],
+        weaknesses: [PokemonType.Electricity, PokemonType.Grass, PokemonType.Fighting, PokemonType.Bug, PokemonType.Fairy, PokemonType.Religion],
         resistancess: [PokemonType.Fire, PokemonType.Water, PokemonType.Ice, PokemonType.Psychic, PokemonType.Ghost, PokemonType.Dark, PokemonType.Metal, PokemonType.Culture],
     }, {
         hebrewName: "היטו-או",
@@ -319,7 +319,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/689.png",
         linkId: 87577,
         majorWeaknesses: [PokemonType.Religion],
-        weaknesses: [PokemonType.Farie],
+        weaknesses: [PokemonType.Fairy],
         resistancess: [PokemonType.Normal, PokemonType.Fighting, PokemonType.Poison, PokemonType.Psychic, PokemonType.Science, PokemonType.Culture],
     }, {
         hebrewName: "דדאקס",
@@ -327,7 +327,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/690.png",
         linkId: 87578,
         majorWeaknesses: [PokemonType.Religion],
-        weaknesses: [PokemonType.Farie],
+        weaknesses: [PokemonType.Fairy],
         resistancess: [PokemonType.Normal, PokemonType.Fighting, PokemonType.Poison, PokemonType.Psychic, PokemonType.Science, PokemonType.Culture],
     }, {
         hebrewName: "דדפייט",
@@ -335,7 +335,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/691.png",
         linkId: 87579,
         majorWeaknesses: [PokemonType.Religion],
-        weaknesses: [PokemonType.Farie],
+        weaknesses: [PokemonType.Fairy],
         resistancess: [PokemonType.Normal, PokemonType.Fighting, PokemonType.Poison, PokemonType.Psychic, PokemonType.Science, PokemonType.Culture],
     }, {
         hebrewName: "טקרס",
@@ -343,7 +343,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/692.png",
         linkId: 87580,
         majorWeaknesses: [PokemonType.Ghost],
-        weaknesses: [PokemonType.Bug, PokemonType.Dark, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Bug, PokemonType.Dark, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Electricity, PokemonType.Fighting, PokemonType.Poison, PokemonType.Metal, PokemonType.Science, PokemonType.Religion],
     }, {
         hebrewName: "ממודוק",
@@ -351,7 +351,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/693.png",
         linkId: 87581,
         majorWeaknesses: [PokemonType.Ghost],
-        weaknesses: [PokemonType.Bug, PokemonType.Dark, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Bug, PokemonType.Dark, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Electricity, PokemonType.Fighting, PokemonType.Poison, PokemonType.Metal, PokemonType.Science, PokemonType.Religion],
     }, {
         hebrewName: "אונייריאן",
@@ -359,7 +359,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/694.png",
         linkId: 87582,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Psychic, PokemonType.Ghost, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Psychic, PokemonType.Ghost, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Electricity, PokemonType.Poison, PokemonType.Metal, PokemonType.Religion],
     }, {
         hebrewName: "איריינסס",
@@ -367,7 +367,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/695.png",
         linkId: 87583,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Psychic, PokemonType.Ghost, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Psychic, PokemonType.Ghost, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Electricity, PokemonType.Poison, PokemonType.Metal, PokemonType.Religion],
     }, {
         hebrewName: "הנאיון",
@@ -407,7 +407,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/700.png",
         linkId: 87642,
         majorWeaknesses: [PokemonType.Culture],
-        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Ice, PokemonType.Flying, PokemonType.Psychic, PokemonType.Farie],
+        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Ice, PokemonType.Flying, PokemonType.Psychic, PokemonType.Fairy],
         resistancess: [PokemonType.Electricity, PokemonType.Poison, PokemonType.Bug, PokemonType.Rock, PokemonType.Dark],
     }, {
         hebrewName: "מגיקין",
@@ -415,7 +415,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/701.png",
         linkId: 87643,
         majorWeaknesses: [PokemonType.Culture],
-        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Ice, PokemonType.Flying, PokemonType.Psychic, PokemonType.Farie],
+        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Ice, PokemonType.Flying, PokemonType.Psychic, PokemonType.Fairy],
         resistancess: [PokemonType.Electricity, PokemonType.Poison, PokemonType.Bug, PokemonType.Rock, PokemonType.Dark],
     }, {
         hebrewName: "טלי",
@@ -472,7 +472,7 @@ const data: Pokemon[] = [
         linkId: 87650,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Water, PokemonType.Earth, PokemonType.Rock, PokemonType.Culture],
-        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Bug, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Bug, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "הוטוליפ",
         englishName: "Hottoleap",
@@ -480,7 +480,7 @@ const data: Pokemon[] = [
         linkId: 87651,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Water, PokemonType.Earth, PokemonType.Rock, PokemonType.Ghost, PokemonType.Dark, PokemonType.Culture, PokemonType.Religion],
-        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Fighting, PokemonType.Psychic, PokemonType.Metal, PokemonType.Farie, PokemonType.Science],
+        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Fighting, PokemonType.Psychic, PokemonType.Metal, PokemonType.Fairy, PokemonType.Science],
     }, {
         hebrewName: "טדובלייז",
         englishName: "Teddoblaze",
@@ -488,14 +488,14 @@ const data: Pokemon[] = [
         linkId: 87652,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Water, PokemonType.Earth, PokemonType.Rock, PokemonType.Ghost, PokemonType.Dark, PokemonType.Culture, PokemonType.Religion],
-        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Fighting, PokemonType.Psychic, PokemonType.Metal, PokemonType.Farie, PokemonType.Science],
+        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Fighting, PokemonType.Psychic, PokemonType.Metal, PokemonType.Fairy, PokemonType.Science],
     }, {
         hebrewName: "ספיקדוט",
         englishName: "Spikdott",
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/711.png",
         linkId: 87653,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Ice, PokemonType.Dragon, PokemonType.Farie],
+        weaknesses: [PokemonType.Ice, PokemonType.Dragon, PokemonType.Fairy],
         resistancess: [PokemonType.Fire, PokemonType.Water, PokemonType.Electricity, PokemonType.Grass, PokemonType.Culture],
     }, {
         hebrewName: "טורנלידוט",
@@ -503,7 +503,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/712.png",
         linkId: 87654,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Ice, PokemonType.Dragon, PokemonType.Farie],
+        weaknesses: [PokemonType.Ice, PokemonType.Dragon, PokemonType.Fairy],
         resistancess: [PokemonType.Fire, PokemonType.Water, PokemonType.Electricity, PokemonType.Grass, PokemonType.Culture],
     }, {
         hebrewName: "אלקטרוהרט",
@@ -519,7 +519,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/714.png",
         linkId: 87656,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Psychic, PokemonType.Bug, PokemonType.Ghost, PokemonType.Dragon, PokemonType.Dark, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Psychic, PokemonType.Bug, PokemonType.Ghost, PokemonType.Dragon, PokemonType.Dark, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Fire, PokemonType.Electricity, PokemonType.Fighting, PokemonType.Poison, PokemonType.Earth, PokemonType.Metal, PokemonType.Science, PokemonType.Religion],
     }, {
         hebrewName: "נייפיל",
@@ -599,7 +599,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/724.png",
         linkId: 87666,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Fighting, PokemonType.Flying, PokemonType.Psychic, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Fighting, PokemonType.Flying, PokemonType.Psychic, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Bug, PokemonType.Rock, PokemonType.Ghost, PokemonType.Dark],
     }, {
         hebrewName: "קואללון",
@@ -623,7 +623,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/727.png",
         linkId: 87669,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Ice, PokemonType.Psychic, PokemonType.Rock, PokemonType.Ghost, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Ice, PokemonType.Psychic, PokemonType.Rock, PokemonType.Ghost, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Earth, PokemonType.Bug, PokemonType.Metal, PokemonType.Religion],
     }, {
         hebrewName: "ינשומורדור",
@@ -639,7 +639,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/729.png",
         linkId: 87671,
         majorWeaknesses: [PokemonType.Culture],
-        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Ice, PokemonType.Psychic, PokemonType.Ghost, PokemonType.Farie],
+        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Ice, PokemonType.Psychic, PokemonType.Ghost, PokemonType.Fairy],
         resistancess: [PokemonType.Electricity, PokemonType.Poison, PokemonType.Rock, PokemonType.Metal, PokemonType.Religion],
     }, {
         hebrewName: "טנקרבי",
@@ -647,7 +647,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/730.png",
         linkId: 87672,
         majorWeaknesses: [PokemonType.Culture],
-        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Ice, PokemonType.Psychic, PokemonType.Ghost, PokemonType.Farie],
+        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Ice, PokemonType.Psychic, PokemonType.Ghost, PokemonType.Fairy],
         resistancess: [PokemonType.Electricity, PokemonType.Poison, PokemonType.Rock, PokemonType.Metal, PokemonType.Religion],
     }, {
         hebrewName: "פיגראס",
@@ -680,7 +680,7 @@ const data: Pokemon[] = [
         linkId: 87709,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Fire, PokemonType.Flying, PokemonType.Psychic, PokemonType.Rock, PokemonType.Science],
-        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Farie, PokemonType.Culture, PokemonType.Religion],
+        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Fairy, PokemonType.Culture, PokemonType.Religion],
     }, {
         hebrewName: "סטינק בומב",
         englishName: "Stink Bomb",
@@ -688,14 +688,14 @@ const data: Pokemon[] = [
         linkId: 87710,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Fire, PokemonType.Flying, PokemonType.Psychic, PokemonType.Rock, PokemonType.Science],
-        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Farie, PokemonType.Culture, PokemonType.Religion],
+        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Fairy, PokemonType.Culture, PokemonType.Religion],
     }, {
         hebrewName: "תיקן",
         englishName: "Tikan",
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/736.png",
         linkId: 87711,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Fire, PokemonType.Flying, PokemonType.Bug, PokemonType.Rock, PokemonType.Farie, PokemonType.Religion],
+        weaknesses: [PokemonType.Fire, PokemonType.Flying, PokemonType.Bug, PokemonType.Rock, PokemonType.Fairy, PokemonType.Religion],
         resistancess: [PokemonType.Grass, PokemonType.Earth, PokemonType.Psychic, PokemonType.Ghost, PokemonType.Dark, PokemonType.Culture],
     }, {
         hebrewName: "תיקתיקן",
@@ -703,7 +703,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2020/06/737.png",
         linkId: 87712,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Fire, PokemonType.Flying, PokemonType.Bug, PokemonType.Rock, PokemonType.Farie, PokemonType.Religion],
+        weaknesses: [PokemonType.Fire, PokemonType.Flying, PokemonType.Bug, PokemonType.Rock, PokemonType.Fairy, PokemonType.Religion],
         resistancess: [PokemonType.Grass, PokemonType.Earth, PokemonType.Psychic, PokemonType.Ghost, PokemonType.Dark, PokemonType.Culture],
     }, {
         hebrewName: "וירוס",
@@ -712,14 +712,14 @@ const data: Pokemon[] = [
         linkId: 87713,
         majorWeaknesses: [PokemonType.Earth, PokemonType.Science],
         weaknesses: [PokemonType.Psychic],
-        resistancess: [PokemonType.Electricity, PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Flying, PokemonType.Bug, PokemonType.Metal, PokemonType.Farie, PokemonType.Religion],
+        resistancess: [PokemonType.Electricity, PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Flying, PokemonType.Bug, PokemonType.Metal, PokemonType.Fairy, PokemonType.Religion],
     }, {
         hebrewName: "מלחלזון",
         englishName: "Melahilazon",
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/739.png",
         linkId: 87714,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Electricity, PokemonType.Grass, PokemonType.Fighting, PokemonType.Bug, PokemonType.Farie, PokemonType.Religion],
+        weaknesses: [PokemonType.Electricity, PokemonType.Grass, PokemonType.Fighting, PokemonType.Bug, PokemonType.Fairy, PokemonType.Religion],
         resistancess: [PokemonType.Fire, PokemonType.Water, PokemonType.Ice, PokemonType.Psychic, PokemonType.Ghost, PokemonType.Dark, PokemonType.Metal, PokemonType.Culture],
     }, {
         hebrewName: "רותמנון",
@@ -728,7 +728,7 @@ const data: Pokemon[] = [
         linkId: 87715,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Electricity, PokemonType.Earth, PokemonType.Rock, PokemonType.Culture],
-        resistancess: [PokemonType.Fire, PokemonType.Ice, PokemonType.Bug, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Fire, PokemonType.Ice, PokemonType.Bug, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "באבלי",
         englishName: "Bubbly",
@@ -752,7 +752,7 @@ const data: Pokemon[] = [
         linkId: 87718,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Electricity, PokemonType.Fighting, PokemonType.Earth, PokemonType.Science],
-        resistancess: [PokemonType.Normal, PokemonType.Water, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Psychic, PokemonType.Bug, PokemonType.Rock, PokemonType.Dragon, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Normal, PokemonType.Water, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Psychic, PokemonType.Bug, PokemonType.Rock, PokemonType.Dragon, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "זיגדרה",
         englishName: "Zigdra",
@@ -824,7 +824,7 @@ const data: Pokemon[] = [
         linkId: 87728,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Electricity, PokemonType.Fighting, PokemonType.Earth, PokemonType.Science],
-        resistancess: [PokemonType.Normal, PokemonType.Water, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Psychic, PokemonType.Bug, PokemonType.Rock, PokemonType.Dragon, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Normal, PokemonType.Water, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Psychic, PokemonType.Bug, PokemonType.Rock, PokemonType.Dragon, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "סטארמי ישראלי",
         englishName: "IL Starmie",
@@ -832,7 +832,7 @@ const data: Pokemon[] = [
         linkId: 87729,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Electricity, PokemonType.Fighting, PokemonType.Earth, PokemonType.Science],
-        resistancess: [PokemonType.Normal, PokemonType.Water, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Psychic, PokemonType.Bug, PokemonType.Rock, PokemonType.Dragon, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Normal, PokemonType.Water, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Psychic, PokemonType.Bug, PokemonType.Rock, PokemonType.Dragon, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "ליטוויק ישראלי",
         englishName: "IL Litwick",
@@ -840,7 +840,7 @@ const data: Pokemon[] = [
         linkId: 87730,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Water, PokemonType.Earth, PokemonType.Rock, PokemonType.Culture],
-        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Bug, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Bug, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "לאמפנט ישראלי",
         englishName: "IL Lampent",
@@ -848,7 +848,7 @@ const data: Pokemon[] = [
         linkId: 87731,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Water, PokemonType.Electricity, PokemonType.Poison, PokemonType.Earth, PokemonType.Rock, PokemonType.Science, PokemonType.Culture],
-        resistancess: [PokemonType.Fire, PokemonType.Ice, PokemonType.Psychic, PokemonType.Bug, PokemonType.Ghost, PokemonType.Dark, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Fire, PokemonType.Ice, PokemonType.Psychic, PokemonType.Bug, PokemonType.Ghost, PokemonType.Dark, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "שאנדלור ישראלי",
         englishName: "IL Chandelure",
@@ -856,7 +856,7 @@ const data: Pokemon[] = [
         linkId: 87732,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Water, PokemonType.Electricity, PokemonType.Poison, PokemonType.Earth, PokemonType.Rock, PokemonType.Science, PokemonType.Culture],
-        resistancess: [PokemonType.Fire, PokemonType.Ice, PokemonType.Psychic, PokemonType.Bug, PokemonType.Ghost, PokemonType.Dark, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Fire, PokemonType.Ice, PokemonType.Psychic, PokemonType.Bug, PokemonType.Ghost, PokemonType.Dark, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "קאבוטו ישראלי",
         englishName: "IL Kabuto",
@@ -880,7 +880,7 @@ const data: Pokemon[] = [
         linkId: 87735,
         majorWeaknesses: [PokemonType.Water, PokemonType.Earth],
         weaknesses: [PokemonType.Fighting, PokemonType.Rock, PokemonType.Culture],
-        resistancess: [PokemonType.Normal, PokemonType.Fire, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Bug, PokemonType.Farie],
+        resistancess: [PokemonType.Normal, PokemonType.Fire, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Bug, PokemonType.Fairy],
     }, {
         hebrewName: "גלוארק",
         englishName: "Gloark",
@@ -904,7 +904,7 @@ const data: Pokemon[] = [
         linkId: 87738,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Water, PokemonType.Rock, PokemonType.Dragon, PokemonType.Dark, PokemonType.Culture, PokemonType.Religion],
-        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Fighting, PokemonType.Metal, PokemonType.Farie, PokemonType.Science],
+        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Fighting, PokemonType.Metal, PokemonType.Fairy, PokemonType.Science],
     }, {
         hebrewName: "עיניון",
         englishName: "Inyon",
@@ -944,7 +944,7 @@ const data: Pokemon[] = [
         linkId: 87743,
         majorWeaknesses: [PokemonType.Fighting, PokemonType.Earth],
         weaknesses: [PokemonType.Water, PokemonType.Science],
-        resistancess: [PokemonType.Normal, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Psychic, PokemonType.Bug, PokemonType.Rock, PokemonType.Dragon, PokemonType.Farie],
+        resistancess: [PokemonType.Normal, PokemonType.Ice, PokemonType.Poison, PokemonType.Flying, PokemonType.Psychic, PokemonType.Bug, PokemonType.Rock, PokemonType.Dragon, PokemonType.Fairy],
     }, {
         hebrewName: "וולי",
         englishName: "Wooly",
@@ -975,7 +975,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/771.png",
         linkId: 87747,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Dragon, PokemonType.Farie],
+        weaknesses: [PokemonType.Dragon, PokemonType.Fairy],
         resistancess: [PokemonType.Fire, PokemonType.Water, PokemonType.Metal, PokemonType.Culture],
     }, {
         hebrewName: "מדוזה",
@@ -984,7 +984,7 @@ const data: Pokemon[] = [
         linkId: 87748,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Earth, PokemonType.Psychic, PokemonType.Science],
-        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Farie, PokemonType.Religion],
+        resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Bug, PokemonType.Fairy, PokemonType.Religion],
     }, {
         hebrewName: "אלישע",
         englishName: "Elisha",
@@ -1000,14 +1000,14 @@ const data: Pokemon[] = [
         linkId: 87750,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Water, PokemonType.Electricity, PokemonType.Poison, PokemonType.Earth, PokemonType.Rock, PokemonType.Science, PokemonType.Culture],
-        resistancess: [PokemonType.Fire, PokemonType.Ice, PokemonType.Psychic, PokemonType.Bug, PokemonType.Ghost, PokemonType.Dark, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Fire, PokemonType.Ice, PokemonType.Psychic, PokemonType.Bug, PokemonType.Ghost, PokemonType.Dark, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "קספירל",
         englishName: "Kespiral",
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/775.png",
         linkId: 87751,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Ice, PokemonType.Poison, PokemonType.Metal, PokemonType.Farie],
+        weaknesses: [PokemonType.Ice, PokemonType.Poison, PokemonType.Metal, PokemonType.Fairy],
         resistancess: [PokemonType.Fire, PokemonType.Water, PokemonType.Electricity, PokemonType.Grass, PokemonType.Fighting, PokemonType.Bug, PokemonType.Dragon, PokemonType.Dark, PokemonType.Science, PokemonType.Culture],
     }, {
         hebrewName: "הוסו",
@@ -1015,7 +1015,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/776.png",
         linkId: 87752,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Ice, PokemonType.Psychic, PokemonType.Rock, PokemonType.Ghost, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Ice, PokemonType.Psychic, PokemonType.Rock, PokemonType.Ghost, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Grass, PokemonType.Fighting, PokemonType.Poison, PokemonType.Earth, PokemonType.Bug, PokemonType.Metal, PokemonType.Religion],
     }, {
         hebrewName: "מומקרן",
@@ -1030,7 +1030,7 @@ const data: Pokemon[] = [
         englishName: "Negakosel",
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/778.png",
         linkId: 87754,
-        majorWeaknesses: [PokemonType.Farie],
+        majorWeaknesses: [PokemonType.Fairy],
         weaknesses: [PokemonType.Ice, PokemonType.Psychic, PokemonType.Ghost, PokemonType.Dragon],
         resistancess: [PokemonType.Fire, PokemonType.Water, PokemonType.Electricity, PokemonType.Grass, PokemonType.Poison, PokemonType.Metal, PokemonType.Religion],
     }, {
@@ -1039,7 +1039,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/779.png",
         linkId: 87755,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Earth, PokemonType.Psychic, PokemonType.Ghost, PokemonType.Farie, PokemonType.Science, PokemonType.Culture],
+        weaknesses: [PokemonType.Earth, PokemonType.Psychic, PokemonType.Ghost, PokemonType.Fairy, PokemonType.Science, PokemonType.Culture],
         resistancess: [PokemonType.Electricity, PokemonType.Poison, PokemonType.Flying, PokemonType.Metal, PokemonType.Religion],
     }, {
         hebrewName: "שרדיקאצ'ו",
@@ -1055,7 +1055,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/781.png",
         linkId: 87757,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Earth, PokemonType.Psychic, PokemonType.Farie, PokemonType.Science, PokemonType.Culture],
+        weaknesses: [PokemonType.Earth, PokemonType.Psychic, PokemonType.Fairy, PokemonType.Science, PokemonType.Culture],
         resistancess: [PokemonType.Electricity, PokemonType.Bug, PokemonType.Rock, PokemonType.Dark, PokemonType.Metal, PokemonType.Religion],
     }, {
         hebrewName: "ציזומי איקס 49",
@@ -1103,7 +1103,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/787.png",
         linkId: 87820,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Fighting, PokemonType.Bug, PokemonType.Farie, PokemonType.Religion],
+        weaknesses: [PokemonType.Fighting, PokemonType.Bug, PokemonType.Fairy, PokemonType.Religion],
         resistancess: [PokemonType.Psychic, PokemonType.Ghost, PokemonType.Dark, PokemonType.Culture],
     }, {
         hebrewName: "ניין גרדיאן",
@@ -1127,7 +1127,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/790.png",
         linkId: 87823,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Flying, PokemonType.Psychic, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Flying, PokemonType.Psychic, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Bug, PokemonType.Rock, PokemonType.Dark],
     }, {
         hebrewName: "ניין מצפון",
@@ -1152,14 +1152,14 @@ const data: Pokemon[] = [
         linkId: 87826,
         majorWeaknesses: [],
         weaknesses: [PokemonType.Water, PokemonType.Earth, PokemonType.Rock, PokemonType.Culture],
-        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Bug, PokemonType.Metal, PokemonType.Farie],
+        resistancess: [PokemonType.Fire, PokemonType.Grass, PokemonType.Ice, PokemonType.Bug, PokemonType.Metal, PokemonType.Fairy],
     }, {
         hebrewName: "רוק",
         englishName: "Rock",
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/794.png",
         linkId: 87827,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Fighting, PokemonType.Earth, PokemonType.Psychic, PokemonType.Metal, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Fighting, PokemonType.Earth, PokemonType.Psychic, PokemonType.Metal, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Normal, PokemonType.Fire, PokemonType.Poison, PokemonType.Bug, PokemonType.Rock, PokemonType.Dark],
     }, {
         hebrewName: "קפטן רוק",
@@ -1167,7 +1167,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/795.png",
         linkId: 87828,
         majorWeaknesses: [PokemonType.Culture],
-        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Ice, PokemonType.Flying, PokemonType.Psychic, PokemonType.Farie],
+        weaknesses: [PokemonType.Water, PokemonType.Grass, PokemonType.Ice, PokemonType.Flying, PokemonType.Psychic, PokemonType.Fairy],
         resistancess: [PokemonType.Electricity, PokemonType.Poison, PokemonType.Bug, PokemonType.Rock, PokemonType.Dark],
     }, {
         hebrewName: "קינג רוק",
@@ -1191,7 +1191,7 @@ const data: Pokemon[] = [
         imageId: "https://www.pocketmonsters.co.il/wp-content/uploads/2010/06/798.png",
         linkId: 87831,
         majorWeaknesses: [],
-        weaknesses: [PokemonType.Psychic, PokemonType.Ghost, PokemonType.Farie, PokemonType.Culture],
+        weaknesses: [PokemonType.Psychic, PokemonType.Ghost, PokemonType.Fairy, PokemonType.Culture],
         resistancess: [PokemonType.Electricity, PokemonType.Poison, PokemonType.Metal, PokemonType.Religion],
     }, {
         hebrewName: "גרוביס",

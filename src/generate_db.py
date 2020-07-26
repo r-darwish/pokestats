@@ -35,7 +35,7 @@ class PokemonType(Enum):
     Dragon = auto()
     Dark = auto()
     Metal = auto()
-    Farie = auto()
+    Fairy = auto()
     Science = auto()
     Culture = auto()
     Religion = auto()

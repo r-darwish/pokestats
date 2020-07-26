@@ -18,7 +18,7 @@ enum PokemonType {
     Dragon = "Dragon",
     Dark = "Dark",
     Metal = "Metal",
-    Farie = "Farie",
+    Fairy = "Fairy",
     Science = "Science",
     Culture = "Culture",
     Religion = "Religion",
